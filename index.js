@@ -9,8 +9,9 @@ function mondayWork(toDo='go to the office'){
 
 
 
-function wrapAdjective(symbol='special'){
-    return function (adjective) {
+function wrapAdjective(symbol){
+    
+    return function (adjective='special') {
 
         return `You are ${symbol}${adjective}${symbol}!`;
           
